@@ -1,4 +1,5 @@
 # Table of contents
 
-* [yebo-java](README.md)
+* [Java története](README.md)
+* [Változótípusok és utasításaik](valtozotipusok-es-utasitasaik.md)
 
