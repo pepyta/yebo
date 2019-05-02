@@ -1,0 +1,2 @@
+# Tömbök és műveleteik
+

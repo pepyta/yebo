@@ -1,0 +1,2 @@
+# Grafikus felület \(GUI\) készítése
+

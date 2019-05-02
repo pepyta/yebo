@@ -1,0 +1,2 @@
+# Elemi algoritmusok
+

@@ -1,23 +1,4 @@
-# Java története
+# Bevezetés
 
-## Getting Super Powers
-
-Becoming a super hero is a fairly straight forward process:
-
-```
-$ give me super-powers
-```
-
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-Once you're strong enough, save the world:
-
-```
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-
-
+Üdvözlünk az oldalon! Ez a weboldal azért jött létre, hogy segítsünk neked a Java tanulmányaid során. Amennyiben érdekel a Java története és teljesen az alapokat szeretnéd megtanulni javasoljuk a Bevezetés szekció, de a tényleges programozás majd az Alapok szekcióban lesznek elérhetőek.
 

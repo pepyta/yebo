@@ -100,5 +100,19 @@ String szám = bemenet.replaceAll("[^0-9]", "");
 System.out.printLn(szám);
 ```
 
+## Felesleges karakterek eltüntetése
+
+Előfordulhat, hogy a felhasználó által beírt szöveg tartalmazhat felesleges whitespaceket. Azokat a nem nyomtatható karaktereket nevezzük ennek, amik a szöveg elején vagy végén helyezkednek el és nem befolyásolja a megjelenítést semmilyen formában.
+
+```java
+// Egy felesleges String, ami felesleges karakterket tartalmaz
+String hibás = "    Ma napos időnk van   \r \n          ";
+
+// A szövegből eldobjuk a felesleges karaktereket.
+// A /r és /n karakter az az új sor kezdését jelenti
+// különböző operációs rendszereken.
+System.out.printLn(hibás.trim()); 
+```
+
 
 

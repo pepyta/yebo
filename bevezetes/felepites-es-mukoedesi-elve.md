@@ -1,0 +1,2 @@
+# Felépítés és működési elve
+
