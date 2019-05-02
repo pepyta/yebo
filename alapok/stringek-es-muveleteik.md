@@ -10,7 +10,7 @@ String név = "Az én nevem";
 String állat = new String("Medve");
 ```
 
-## Konkatenáció \(szövegösszefüggés\)
+## Konkatenáció \(szövegösszefűzés\)
 
 A Stringeket kiegészítését konkatenációnak nevezzük.
 
