@@ -130,7 +130,7 @@ Két tömb elemeit összefuttathatjuk és ezáltal lesz egy nagy tömbünk, ami 
 4. Ugyanezt megtesszük a második tömbbel is
 
 ```java
-// Létrehozzuk a köt tömbünket
+// Létrehozzuk a két tömbünket
 int [] vektor = { 3, 2, 6, 12, 3, 4, 9, 10 };
 int [] másik = { 1, 6, 3, 5, 9, 10, 4 };
 
@@ -161,7 +161,7 @@ Egy új tömbbe kiválogatjuk a feltételnek megfelelő elemeket.
 4. Feltöltjük az új tömböt.
 
 ```java
-// Létrehozzuk a köt tömbünket
+// Létrehozzuk a tömbünket
 int [] vektor = { 3, 2, 6, 12, 3, 4, 9, 10 };
 
 // Eltároljuk a feltételt egy változóban
@@ -185,6 +185,75 @@ int strázsa = 0;
 for(int elem: vektor){
     if(elem == feltétel){
         tömb[strázsa++] = elem;
+    }
+}
+```
+
+## Kiválogatás II.
+
+Ezt az algoritmust akkor használjuk, ha nem tudjuk, hogy a tömb hány ilyen elemet tartalmaz.
+
+1. Létrehozunk egy új tömböt az eredeti méretével.
+2. Felvesszük a strázsa nevű változót.
+3. Ha egyezik, akkor a strázsa helyére beillesztjük az elemet.
+
+```java
+// Létrehozzuk a tömbünket
+int [] vektor = { 3, 2, 6, 12, 3, 4, 9, 10 };
+
+// Létrehozzuk az új tömböt
+int [] tömb = new int[vektor.length];
+
+// Felvesszük a strázsa nevű változót
+int strázsa = 0;
+
+// Hozzáadjuk az első tömb elemeit
+for(int elem: vektor){
+    // Minden páros elemet átmásolunk
+    if(elem % 2 == 0){
+        tömb[strázsa++] = elem;
+    }
+}
+```
+
+## Kiválogatás III.
+
+A haramdik kiválogatást akkor használjuk, ha csak egyedi elemeket akarunk átmásolni, amik kielégítik az adott feltétel.
+
+1. Létrehozunk az eredeti tömb méretével megegyező tömböt.
+2. Felvesszük a strázsa nevű változót.
+3. Végigmegyünk az eredeti tömb összes elemén.
+4. Felveszünk egy tartalmazza-e változót.
+5. Ha kielégíti a feltételt, akkor végig megyünk az új tömbünk és megnézzük a tartalmazását.
+6. Ha nincs benne, akkor hozzáadjuk és növeljük a strázsát.
+
+```java
+// Létrehozzuk a tömbünket
+int [] vektor = { 3, 2, 6, 12, 3, 4, 9, 10 };
+
+// Létrehozzuk az új tömböt
+int [] tömb = new int[vektor.length];
+
+// Felvesszük a strázsa nevű változót
+int strázsa = 0;
+
+// Végigmegyünk a tömb összes elemén
+for(int elem: vektor){
+    // Megvizsgáljuk, hogy kielégíti-e a feltételt
+    // A jelenlegi feltétel a árommal való oszthatóság
+    if(elem % 3 == 0){
+        // Megvizsgáljuk, hogy az új tömb tartalmazza-e már
+        boolean tartalmaz = false;
+        for(int i = 0; i < strázsa; i++){
+            if(tömb[i] == elem){
+                tartalmaz = true;
+            }
+        }
+         
+        // Ha nem, akkor hozzáadjuk  
+        if(!tartalmaz){
+            tömb[strázsa++] = elem;
+        }
     }
 }
 ```
