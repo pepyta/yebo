@@ -6,7 +6,7 @@
 
 * [Java története](bevezetes/tortenet.md)
 * [Verziók](bevezetes/verziok.md)
-* [Felépítés és működési elve](bevezetes/felepites-es-mukoedesi-elve.md)
+* [Felépítés és működési elv](bevezetes/felepites-es-mukoedesi-elve.md)
 * [Integrált fejlesztői környezetek \(IDEk\)](bevezetes/ide.md)
 
 ## Alapok

@@ -96,7 +96,7 @@ A buborák rendezés a leglassabb rendezés az összes közül. A buborék rende
 Hatékonysága:  $$O(n) = n^2$$ .
 
 {% hint style="info" %}
-A buborék rendezésnél sokkal egyszerűbb, ha az Arrays.sort parancsot használjuk. A kód ezáltal sokkal követhetőbb és gyorsabb is a program. Ennek hatékonysága: $$O(n) = log2(n)$$ 
+A buborék rendezésnél sokkal egyszerűbb, ha az `Arrays.sort` parancsot használjuk. A kód ezáltal sokkal követhetőbb és gyorsabb is a program. Ennek hatékonysága: $$O(n) = log₂(n)$$ 
 {% endhint %}
 
 ```java
