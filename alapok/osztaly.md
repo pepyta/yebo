@@ -46,6 +46,23 @@ class Macska {
 }
 ```
 
+## Osztálymetódusok
+
+Azokat a metódusokat, amik az osztállyal végeznek műveleteket a konstruktorral egy szinten helyezünk el. Ezek a metódusok alapértelmezetten publikusak, de ezt módosíthatjuk.
+
+```java
+class Macska {
+    ...
+    // A korábban mutatott etetés funkció
+    void etetes(){
+        // Ha eszünk nem leszünk éhesek
+        // és boldogabbak is leszünk.
+        ehseg--;
+        hangulat++;
+    }
+}
+```
+
 ## Példányosítás
 
 Az osztályból objektumokat hozhatunk létre, amikkel később dolgozhatunk. Ezt a folyamatot példányosításnak nevezünk, amit a `new` parancs intéz el nekünk.
