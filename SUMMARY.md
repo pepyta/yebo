@@ -11,17 +11,17 @@
 
 ## Alapok
 
-* [Változótípusok és utasításaik](alapok/valtozotipusok-es-utasitasaik.md)
-* [Stringek és műveleteik](alapok/stringek-es-muveleteik.md)
-* [Tömbök és műveleteik](alapok/toemboek-es-muveleteik.md)
+* [Változótípusok és utasításaik](alapok/valtozo.md)
+* [Stringek és műveleteik](alapok/string.md)
+* [Tömbök és műveleteik](alapok/tomb.md)
 * [Kivételkezelés](alapok/kivetelkezeles.md)
 * [Adatbevitel](alapok/adatbevitel.md)
 * [Elemi algoritmusok](alapok/elemi-algoritmusok.md)
 * [Fájlok beolvasása](alapok/fajlok-beolvasasa.md)
-* [Metódusok](alapok/metodusok.md)
-* [Osztályok](alapok/osztalyok.md)
-* [Gyűjtemények](alapok/gyujtemenyek.md)
-* [Grafikus felület \(GUI\) készítése](alapok/grafikus-feluelet-gui-keszitese.md)
+* [Metódusok](alapok/metodus.md)
+* [Osztályok](alapok/osztaly.md)
+* [Gyűjtemények](alapok/gyujtemeny.md)
+* [Grafikus felület \(GUI\) készítése](alapok/gui.md)
 
 ## Gyakorlás
 

@@ -11,6 +11,10 @@ Minden metódusnak van egy visszatérési értéke és paraméter listája. A vi
 
 A paraméter listában pedig típus deklaráció történik, tehát meghatározzuk a változó nevét és annak a típusát. A paraméter listában megadott primitív típusú változók megkapják a paraméterek értékét, de nem tudják beállítani a paraméterként kapott változó értékét. Amennyiben a metódussal akarjuk befolyásolni, akkor a változók referencia változatait kell használjuk \(pl.: int helyett Integert használunk\).
 
+{% hint style="warning" %}
+A primitív változókkal, ha paraméterként dolgozunk, akkor egy új változót hoznánk létre, tehát az eredeti változót nem befolyásolja.
+{% endhint %}
+
 ## A `main` melletti metódusok
 
 A main melletti metódusok mindig `static`-kal kezdődnek, mivel a `main`-t nem tudjuk példányosítani és ezért nem kell még a `main`-t sem megjelölni, automatikusan tudja a Java, hogy arra hivatkozunk.
@@ -52,5 +56,9 @@ public class metodusok{
 }
 ```
 
+A `static` módosító szerepe, hogy a metódusra osztálypéldány nélkül is lehessen hivatkozni. Az osztálymetódusoknál nem kell staticnak lennie, de itt kötelező.
 
+## Osztálymetódusok
+
+Az osztálymetódusok az osztályokon belül található metódusok, amik az osztály tagadataival tudnak műveleteket végezni. Erről részletesebben a következő fejezetben tanulunk.
 
