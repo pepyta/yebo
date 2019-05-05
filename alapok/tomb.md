@@ -2,7 +2,7 @@
 
 A tömbök azonos típusú elemek tárolására szolgáló megoldás Javaban. 
 
-{% hint style="danger" %}
+{% hint style="info" %}
 A tömbök fix nagyságúak és azonos elemek tárolására alkalmas csak. Amennyiben ezek a feltételek nem felelnek meg neked, akkor nézd meg a Gyűjtemények szekciót!
 {% endhint %}
 
